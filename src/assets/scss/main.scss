@@ -1,0 +1,114 @@
+@import "grid";
+@import "variables";
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  list-style: none;
+  color:$gris;
+  font-family: $font;
+}
+
+@mixin head($fondo){
+  background-image: url($fondo);
+  background-size: cover;
+  height:20px;
+  margin:5px;
+}
+
+.headT{
+  position:relative;
+  top:0.5rem;
+  color:$laboratoria;
+}
+
+
+.nav{
+  .nav__section{
+    .nav__section--ico{
+      @include head('../img/menu.png');
+    }
+    .nav__section--name{
+      @extend .headT;
+    }
+  }
+  .nav__search{
+    .nav__search--ico{
+      @include head('../img/search.png');
+    }
+    .nav__search--name{
+      @extend .headT;
+    }
+  }
+}
+
+.nav__redes{
+  display: flex;
+  justify-content: flex-end;
+  .nav__redes--face{
+    width:2%;
+    margin:10px;
+  }
+  .nav__redes--twit{
+    width:4%;
+    margin:10px;
+  }
+  .nav__redes--link{
+    width:4%;
+    margin:10px;
+  }
+}
+
+.navH{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+hr{
+  width: 84%;
+  margin: 10px auto;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__img{
+    width: 25%;
+  }
+}
+
+.tiempo{
+  text-align: center;
+  .tiempo__fecha{
+    display: inline-block;
+    margin: 8px;
+  }
+  .tiempo__fecha::after{
+    content:'|';
+    width:20px;
+    height:20px;
+    margin-left: 5px;
+  }
+  .tiempo__temp{
+    display:inline-block;
+    margin-left:5px;
+  }
+}
+
+.navP{
+  margin-top:20px;
+  display: flex;
+  justify-content: center;
+  .navP__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background: $laboratoria;
+    color:$white;
+  }
+}
