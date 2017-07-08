@@ -13,6 +13,29 @@ const render = (root) =>{
     wrapper.append(Primera(update));
   },3000);
 
+  $(window).scroll(function(e) {
+    const cursorY = $(window).scrollTop();
+    console.log(cursorY);
+    if (parseInt(cursorY) == 974) {
+      wrapper.append(Segunda(update));
+    }
+    if(parseInt(cursorY)== 1715){
+      wrapper.append(Tercera(update));
+    }
+
+    if(parseInt(cursorY)==2324){
+      wrapper.append(Cuarta(update));
+    }
+
+    if(parseInt(cursorY)==2913){
+      wrapper.append(Quinta(update));
+    }
+
+    if(parseInt(cursorY)==3331){
+      wrapper.append(Footer(update));
+    }
+  });
+
   const update = function(){
     render(root);
   };
@@ -36,6 +59,13 @@ $(_ =>{
     console.log(state.noticias[0]);
   });
 
+  $.get("/api/categories/",(data2) =>{
+    if(!data2){ return alert('sin data')};
+
+    state.categorias= data2;
+    console.log(state.categorias);
+    console.log(state.noticias[0]);
+  });
 
   const root = $('#root');
   render(root);

@@ -109,6 +109,341 @@ hr{
     align-items: center;
     height: 15vh;
     background: $laboratoria;
+  }
+  .navP__item--cat{
     color:$white;
   }
+}
+
+.primera--img-0{
+  position: relative;
+  left: 7.8rem;
+}
+
+.primera--img-1{
+  width: 35%;
+  position: relative;
+  left: -31.5rem;
+  top: -3rem;
+}
+
+.primera--img-2{
+  height: 36vh;
+  width: 21%;
+  position: relative;
+  top: -18.9rem;
+  left: -28rem;
+}
+
+.primera--img-3{
+  height: 36vh;
+  width: 23%;
+  position: relative;
+  top: -35rem;
+  left: 6rem;
+}
+
+.primera--title-0{
+  position: relative;
+  top: -10rem;
+  left: 12rem;
+  font-size: 2.5rem;
+  width: 63%;
+  color:$white;
+}
+
+.primera--title-1{
+  width: 35%;
+  height: 20vh;
+  background: $gris;
+  position: relative;
+  top: -3rem;
+  left: 7.8rem;
+  padding-top: 10px;
+  padding-left: 7px;
+  color:$white;
+}
+
+.primera--title-2{
+  width: 21%;
+  background: #2B2B2B;
+  position: relative;
+  top: -18.9rem;
+  left: 43.9rem;
+  height: 19.5vh;
+  color: #fff;
+}
+
+.primera--title-3{
+  background: #2B2B2B;
+  position: relative;
+  top: -18.9rem;
+  left: 64.7rem;
+  height: 19.5vh;
+  color: #fff;
+  width: 23%;
+  top: -35rem;
+}
+
+.primera--parrafo-0{
+  position: relative;
+  top: -9.5rem;
+  left: 12rem;
+  width: 42%;
+  font-size: 1.2rem;
+  color:$white;
+}
+
+.primera--parrafo-1, .primera--parrafo-2, .primera--parrafo-3{
+  color:$white;
+}
+
+@mixin sectionU{
+  position: relative;
+  left: 8rem;
+}
+
+.mundo{
+  position: relative;
+  top: -30rem;
+  h2{
+    margin-left: 8rem;
+  }
+  .separador{
+    width: 17%;
+    height: 0.5vh;
+    background: $laboratoria;
+    margin: 10px 0;
+  }
+  .segunda{
+    @include sectionU;
+  }
+
+
+}
+
+@for $i from 4 through 13{
+  .segunda--#{$i}{
+    position:relative;
+    margin-left:5px;
+    margin-bottom:5px;
+    .segunda--title-#{$i}{
+      background:$gris;
+      width: 100%;
+      height:12vh;
+      position: absolute;
+      bottom: 0;
+      color:$white;
+      bottom: -85px;
+    }
+  }
+
+}
+
+.segunda--7{
+  top: -141px;
+  left: 39rem;
+}
+
+.figuraL{
+  top: 0;
+  left: 312px;
+  height: 18vh;
+}
+
+.figAltaPie{
+  height: 15vh;
+  bottom: -107px;
+}
+
+.segunda--4 .segunda--title-4,.segunda--7 .segunda--title-7{
+    @extend .figAltaPie;
+  }
+
+
+.segunda--8{
+  top: 6rem;
+  right: 20rem;
+  .segunda--title-8{
+    @extend .figuraL;
+  }
+}
+
+.segunda--9{
+  top: 6rem;
+  left: -20rem;
+  .segunda--title-9{
+    @extend .figuraL;
+  }
+}
+
+.segunda--11, .segunda--12, .segunda--13{
+  left: 19.5rem;
+}
+
+.segunda--10{
+  top: 8.8rem;
+  left: -40rem;
+}
+
+.tech{
+  position: relative;
+  top: -19rem;
+  h2{
+    margin-left: 8rem;
+  }
+  .separador{
+    width: 17%;
+    height: 0.5vh;
+    background: $laboratoria;
+    margin: 10px 0;
+  }
+  .tercera{
+    @include sectionU;
+  }
+}
+
+@for $i from 14 through 18{
+  .tercera--#{$i}{
+    position:relative;
+    margin-left:5px;
+    margin-bottom:5px;
+    .tercera--title-#{$i}{
+      background:$gris;
+      width: 100%;
+      height:12vh;
+      position: absolute;
+      bottom: 0;
+      color:$white;
+      bottom: -85px;
+    }
+  }
+}
+
+.tercera--14{
+  width: 50%;
+  height: 47vh;
+}
+
+.tercera--img-14{
+  height: 60vh;
+}
+
+.tercera--img-15{
+  height: 9rem;
+}
+
+.tercera--14 .tercera--title-14{
+  bottom: -177px;
+}
+
+.tercera--16{
+  top: -9rem;
+  left: 20rem;
+}
+
+.tercera--17{
+  top: -3rem;
+  .tercera--title-17{
+    top: 0;
+    left: 19.5rem;
+    height: 8rem;
+  }
+}
+
+.tercera--18{
+  top: -41.5px;
+  left: 39.5rem;
+  .tercera--title-18{
+    top: 0;
+    left: 19.5rem;
+    height: 8rem;
+  }
+}
+
+.educacion{
+  position: relative;
+  top: -19rem;
+  h2{
+    margin-left: 8rem;
+  }
+  .separador{
+    width: 17%;
+    height: 0.5vh;
+    background: $laboratoria;
+    margin: 10px 0;
+  }
+  .cuarta{
+    @include sectionU;
+  }
+}
+
+@for $i from 19 through 24{
+  .cuarta--#{$i}{
+    position:relative;
+    margin-left:5px;
+    margin-bottom:5px;
+    .cuarta--title-#{$i}{
+      background:$gris;
+      width: 100%;
+      height:12vh;
+      position: absolute;
+      bottom: 0;
+      color:$white;
+      bottom: -85px;
+    }
+  }
+}
+
+.cuarta--22{
+  top:6rem;
+}
+
+.cuarta--23{
+  top:6rem;
+  height: 19vh;
+}
+
+.cuarta--24{
+  top: -9rem;
+  left: 20rem;
+}
+
+.opinion{
+  position: relative;
+  top: -19rem;
+  h2{
+    margin-left: 8rem;
+  }
+  .separador{
+    width: 17%;
+    height: 0.5vh;
+    background: $laboratoria;
+    margin: 10px 0;
+  }
+  .quinta{
+    @include sectionU;
+  }
+}
+
+@for $i from 24 through 27{
+  .quinta--#{$i}{
+    position:relative;
+    margin-left:5px;
+    margin-bottom:5px;
+    width: 23%;
+    .quinta--title-#{$i}{
+      background:$gris;
+      width: 100%;
+      height:12vh;
+      position: absolute;
+      bottom: 0;
+      color:$white;
+      bottom: -85px;
+    }
+  }
+}
+
+.foot{
+  @include sectionU;
 }

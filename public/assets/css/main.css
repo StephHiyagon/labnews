@@ -228,5 +228,539 @@ hr {
     justify-content: space-around;
     align-items: center;
     height: 15vh;
-    background: #F7B617;
+    background: #F7B617; }
+  .navP .navP__item--cat {
     color: #fff; }
+
+.primera--img-0 {
+  position: relative;
+  left: 7.8rem; }
+
+.primera--img-1 {
+  width: 35%;
+  position: relative;
+  left: -31.5rem;
+  top: -3rem; }
+
+.primera--img-2 {
+  height: 36vh;
+  width: 21%;
+  position: relative;
+  top: -18.9rem;
+  left: -28rem; }
+
+.primera--img-3 {
+  height: 36vh;
+  width: 23%;
+  position: relative;
+  top: -35rem;
+  left: 6rem; }
+
+.primera--title-0 {
+  position: relative;
+  top: -10rem;
+  left: 12rem;
+  font-size: 2.5rem;
+  width: 63%;
+  color: #fff; }
+
+.primera--title-1 {
+  width: 35%;
+  height: 20vh;
+  background: #2B2B2B;
+  position: relative;
+  top: -3rem;
+  left: 7.8rem;
+  padding-top: 10px;
+  padding-left: 7px;
+  color: #fff; }
+
+.primera--title-2 {
+  width: 21%;
+  background: #2B2B2B;
+  position: relative;
+  top: -18.9rem;
+  left: 43.9rem;
+  height: 19.5vh;
+  color: #fff; }
+
+.primera--title-3 {
+  background: #2B2B2B;
+  position: relative;
+  top: -18.9rem;
+  left: 64.7rem;
+  height: 19.5vh;
+  color: #fff;
+  width: 23%;
+  top: -35rem; }
+
+.primera--parrafo-0 {
+  position: relative;
+  top: -9.5rem;
+  left: 12rem;
+  width: 42%;
+  font-size: 1.2rem;
+  color: #fff; }
+
+.primera--parrafo-1, .primera--parrafo-2, .primera--parrafo-3 {
+  color: #fff; }
+
+.mundo {
+  position: relative;
+  top: -30rem; }
+  .mundo h2 {
+    margin-left: 8rem; }
+  .mundo .separador {
+    width: 17%;
+    height: 0.5vh;
+    background: #F7B617;
+    margin: 10px 0; }
+  .mundo .segunda {
+    position: relative;
+    left: 8rem; }
+
+.segunda--4 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--4 .segunda--title-4 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--5 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--5 .segunda--title-5 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--6 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--6 .segunda--title-6 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--7 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--7 .segunda--title-7 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--8 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--8 .segunda--title-8 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--9 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--9 .segunda--title-9 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--10 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--10 .segunda--title-10 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--11 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--11 .segunda--title-11 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--12 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--12 .segunda--title-12 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--13 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .segunda--13 .segunda--title-13 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.segunda--7 {
+  top: -141px;
+  left: 39rem; }
+
+.figuraL, .segunda--8 .segunda--title-8, .segunda--9 .segunda--title-9 {
+  top: 0;
+  left: 312px;
+  height: 18vh; }
+
+.figAltaPie, .segunda--4 .segunda--title-4, .segunda--7 .segunda--title-7 {
+  height: 15vh;
+  bottom: -107px; }
+
+.segunda--8 {
+  top: 6rem;
+  right: 20rem; }
+
+.segunda--9 {
+  top: 6rem;
+  left: -20rem; }
+
+.segunda--11, .segunda--12, .segunda--13 {
+  left: 19.5rem; }
+
+.segunda--10 {
+  top: 8.8rem;
+  left: -40rem; }
+
+.tech {
+  position: relative;
+  top: -19rem; }
+  .tech h2 {
+    margin-left: 8rem; }
+  .tech .separador {
+    width: 17%;
+    height: 0.5vh;
+    background: #F7B617;
+    margin: 10px 0; }
+  .tech .tercera {
+    position: relative;
+    left: 8rem; }
+
+.tercera--14 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .tercera--14 .tercera--title-14 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.tercera--15 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .tercera--15 .tercera--title-15 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.tercera--16 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .tercera--16 .tercera--title-16 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.tercera--17 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .tercera--17 .tercera--title-17 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.tercera--18 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .tercera--18 .tercera--title-18 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.tercera--14 {
+  width: 50%;
+  height: 47vh; }
+
+.tercera--img-14 {
+  height: 60vh; }
+
+.tercera--img-15 {
+  height: 9rem; }
+
+.tercera--14 .tercera--title-14 {
+  bottom: -177px; }
+
+.tercera--16 {
+  top: -9rem;
+  left: 20rem; }
+
+.tercera--17 {
+  top: -3rem; }
+  .tercera--17 .tercera--title-17 {
+    top: 0;
+    left: 19.5rem;
+    height: 8rem; }
+
+.tercera--18 {
+  top: -41.5px;
+  left: 39.5rem; }
+  .tercera--18 .tercera--title-18 {
+    top: 0;
+    left: 19.5rem;
+    height: 8rem; }
+
+.educacion {
+  position: relative;
+  top: -19rem; }
+  .educacion h2 {
+    margin-left: 8rem; }
+  .educacion .separador {
+    width: 17%;
+    height: 0.5vh;
+    background: #F7B617;
+    margin: 10px 0; }
+  .educacion .cuarta {
+    position: relative;
+    left: 8rem; }
+
+.cuarta--19 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--19 .cuarta--title-19 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--20 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--20 .cuarta--title-20 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--21 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--21 .cuarta--title-21 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--22 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--22 .cuarta--title-22 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--23 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--23 .cuarta--title-23 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--24 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px; }
+  .cuarta--24 .cuarta--title-24 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.cuarta--22 {
+  top: 6rem; }
+
+.cuarta--23 {
+  top: 6rem;
+  height: 19vh; }
+
+.cuarta--24 {
+  top: -9rem;
+  left: 20rem; }
+
+.opinion {
+  position: relative;
+  top: -19rem; }
+  .opinion h2 {
+    margin-left: 8rem; }
+  .opinion .separador {
+    width: 17%;
+    height: 0.5vh;
+    background: #F7B617;
+    margin: 10px 0; }
+  .opinion .quinta {
+    position: relative;
+    left: 8rem; }
+
+.quinta--24 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 23%; }
+  .quinta--24 .quinta--title-24 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.quinta--25 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 23%; }
+  .quinta--25 .quinta--title-25 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.quinta--26 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 23%; }
+  .quinta--26 .quinta--title-26 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.quinta--27 {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 23%; }
+  .quinta--27 .quinta--title-27 {
+    background: #2B2B2B;
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    bottom: -85px; }
+
+.foot {
+  position: relative;
+  left: 8rem; }
