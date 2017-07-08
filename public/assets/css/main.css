@@ -709,7 +709,9 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%; }
+  width: 23%;
+  display: flex;
+  justify-content: space-around; }
   .quinta--24 .quinta--title-24 {
     background: #2B2B2B;
     width: 100%;
@@ -723,7 +725,9 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%; }
+  width: 23%;
+  display: flex;
+  justify-content: space-around; }
   .quinta--25 .quinta--title-25 {
     background: #2B2B2B;
     width: 100%;
@@ -737,7 +741,9 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%; }
+  width: 23%;
+  display: flex;
+  justify-content: space-around; }
   .quinta--26 .quinta--title-26 {
     background: #2B2B2B;
     width: 100%;
@@ -751,7 +757,9 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%; }
+  width: 23%;
+  display: flex;
+  justify-content: space-around; }
   .quinta--27 .quinta--title-27 {
     background: #2B2B2B;
     width: 100%;
@@ -763,4 +771,11 @@ hr {
 
 .foot {
   position: relative;
-  left: 8rem; }
+  left: 8rem;
+  background-color: #F7B617;
+  display: flex;
+  height: 40vh;
+  align-items: center; }
+  .foot .editado {
+    width: 33%;
+    margin: 5px; }

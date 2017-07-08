@@ -1,4 +1,4 @@
-Const Footer = (update) =>{
+const Footer = (update) =>{
   const section = $('<footer class="foot col-md-10"></footer>');
   const div1=$('<div class="editado"></div>');
   const name =$('<img src="assets/img/logo-footer.png"/>');

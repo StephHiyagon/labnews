@@ -432,6 +432,8 @@ hr{
     margin-left:5px;
     margin-bottom:5px;
     width: 23%;
+    display: flex;
+    justify-content: space-around;
     .quinta--title-#{$i}{
       background:$gris;
       width: 100%;
@@ -446,4 +448,12 @@ hr{
 
 .foot{
   @include sectionU;
+  background-color: $laboratoria;
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  .editado{
+    width:33%;
+    margin:5px;
+  }
 }
