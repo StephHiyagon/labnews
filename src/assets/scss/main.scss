@@ -423,6 +423,8 @@ hr{
   }
   .quinta{
     @include sectionU;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -432,8 +434,7 @@ hr{
     margin-left:5px;
     margin-bottom:5px;
     width: 23%;
-    display: flex;
-    justify-content: space-around;
+
     .quinta--title-#{$i}{
       background:$gris;
       width: 100%;

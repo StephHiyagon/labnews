@@ -703,15 +703,15 @@ hr {
     margin: 10px 0; }
   .opinion .quinta {
     position: relative;
-    left: 8rem; }
+    left: 8rem;
+    display: flex;
+    justify-content: space-around; }
 
 .quinta--24 {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%;
-  display: flex;
-  justify-content: space-around; }
+  width: 23%; }
   .quinta--24 .quinta--title-24 {
     background: #2B2B2B;
     width: 100%;
@@ -725,9 +725,7 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%;
-  display: flex;
-  justify-content: space-around; }
+  width: 23%; }
   .quinta--25 .quinta--title-25 {
     background: #2B2B2B;
     width: 100%;
@@ -741,9 +739,7 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%;
-  display: flex;
-  justify-content: space-around; }
+  width: 23%; }
   .quinta--26 .quinta--title-26 {
     background: #2B2B2B;
     width: 100%;
@@ -757,9 +753,7 @@ hr {
   position: relative;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 23%;
-  display: flex;
-  justify-content: space-around; }
+  width: 23%; }
   .quinta--27 .quinta--title-27 {
     background: #2B2B2B;
     width: 100%;
